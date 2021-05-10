@@ -5,6 +5,9 @@
   "version": "0.1.0",
   "author": "Jongwoo Han <han980817@gmail.com>",
   "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "@react-icons/all-files": "^4.1.0",
+    "bootstrap": "^5.0.0",
     "eslint-loader": "^3.0.4",
     "gatsby": "^2.20.24",
     "gatsby-image": "^2.2.39",
@@ -15,10 +18,13 @@
     "gatsby-plugin-typescript": "^2.1.26",
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-transformer-sharp": "^2.3.13",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-icons": "^4.2.0"
   },
   "devDependencies": {
     "@types/jest": "^25.2.1",
