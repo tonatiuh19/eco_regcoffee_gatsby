@@ -1,6 +1,6 @@
 import React from "react";
 import { RiHandHeartFill, RiNumbersFill } from "react-icons/ri";
-import { FaHandsHelping } from "react-icons/fa";
+import { FaHandsHelping, FaHeartbeat } from "react-icons/fa";
 
 const SectionDescription = () => {
 	return (
@@ -40,7 +40,8 @@ const SectionDescription = () => {
 				<div className="container">
 					<div className="row text-center">
 						<div className="col-sm">
-							<h2 className="fw-bolder">
+							<FaHeartbeat fontSize="4.5em" />
+							<h2 className="fw-bolder py-3">
 								Dale a tu audiencia una forma fácil de agradecer
 							</h2>
 
@@ -48,9 +49,9 @@ const SectionDescription = () => {
 								Brinda una forma de respaldar tu trabajo. Con solo un par de
 								clicks, tus fans pueden apoyar tu creatividad, mas aparte dejar
 								un mensaje.
-								<span className="fw-bolder">
+								<p className="fw-bolder">
 									Ni siquiera tienen que crear una cuenta.
-								</span>
+								</p>
 							</h5>
 						</div>
 					</div>
