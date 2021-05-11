@@ -6,6 +6,9 @@
   "author": "Jongwoo Han <han980817@gmail.com>",
   "dependencies": {
     "@brainhubeu/react-carousel": "^2.0.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "@popperjs/core": "^2.9.2",
     "@react-icons/all-files": "^4.1.0",
     "bootstrap": "^5.0.0",

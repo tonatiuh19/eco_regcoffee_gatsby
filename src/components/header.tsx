@@ -2,6 +2,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
+import Logo from "../images/logo_full_grap.png";
 
 interface HeaderProps {
 	siteTitle: string;
@@ -12,7 +13,7 @@ const Header = ({ siteTitle }: HeaderProps) => (
 		<nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
 			<div className="container-fluid">
 				<a className="navbar-brand" href="#">
-					Navbar
+					<img src={Logo} width="200" className="img-fluid" />
 				</a>
 				<button
 					className="navbar-toggler"
