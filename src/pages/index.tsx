@@ -9,7 +9,7 @@ import Start from "../components/main/start";
 
 const IndexPage: React.FC = () => (
 	<Layout>
-		<SEO title="Home" />
+		<SEO title="Regalame un Cafe" />
 		<Start></Start>
 		<Link to="/page-2/"></Link>
 	</Layout>

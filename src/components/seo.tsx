@@ -47,7 +47,6 @@ const SEO = ({ description, lang, meta, title }: SEOProps) => {
 				lang
 			}}
 			title={title}
-			titleTemplate={`%s | ${site.siteMetadata.title}`}
 			meta={[
 				{
 					name: `description`,

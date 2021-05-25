@@ -1,4 +1,5 @@
 import React from "react";
+import SEO from "../seo";
 import SectionDescription from "./sectionDescription";
 import SectionDescriptionGallery from "./sectionDescriptionGallery";
 import SectionDescriptionTwo from "./sectionDescriptionTwo";
@@ -8,6 +9,7 @@ import SectionMain from "./sectionMain";
 const Start = () => {
 	return (
 		<div>
+			<SEO title="Regalame un Cafe"></SEO>
 			<SectionMain></SectionMain>
 			<SectionDescription></SectionDescription>
 			<SectionDescriptionTwo></SectionDescriptionTwo>
