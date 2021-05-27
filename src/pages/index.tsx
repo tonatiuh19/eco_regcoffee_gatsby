@@ -7,12 +7,18 @@ import Image from "../components/image";
 import SEO from "../components/seo";
 import Start from "../components/main/start";
 
-const IndexPage: React.FC = () => (
-	<Layout>
-		<SEO title="Regalame un Cafe" />
-		<Start></Start>
-		<Link to="/page-2/"></Link>
-	</Layout>
-);
+const IndexPage: React.FC = (props: any) => {
+	if (props.location.pathname !== "/") {
+		return <div>Hola</div>;
+	} else {
+		return (
+			<Layout>
+				<SEO title="Regalame un Cafe" />
+				<Start></Start>
+				<Link to="/page-2/"></Link>
+			</Layout>
+		);
+	}
+};
 
 export default IndexPage;

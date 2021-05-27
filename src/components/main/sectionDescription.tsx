@@ -12,7 +12,7 @@ const SectionDescription = () => {
 							<RiNumbersFill fontSize="3.5em" />
 							<h4 className="fw-bolder">Control total</h4>
 							<h5 className="fs-5 pt-2">
-								Tienes el 100% de propiedad de tus seguidores. nunca les
+								Tienes el 100% de propiedad de tus seguidores. Nunca les
 								enviamos correos electrónicos y puede exportar la lista cuando
 								lo desees.
 							</h5>
