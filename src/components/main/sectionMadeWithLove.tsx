@@ -15,7 +15,8 @@ const SectionMadeWithLove = () => {
 					<div className="row text-center">
 						<div className="col-sm">
 							<h2>
-								Hecho con <FaHeart /> para México y Latinoamerica.
+								Hecho con <FaHeart className="text-danger" /> para México y
+								Latinoamerica.
 							</h2>
 						</div>
 					</div>

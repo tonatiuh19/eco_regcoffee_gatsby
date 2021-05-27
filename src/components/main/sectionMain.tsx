@@ -49,7 +49,7 @@ const SectionMain = () => {
 						</div>
 					</div>
 					<div className="col-sm-5">
-						<img src={CreatorImg} className="img-fluid vert-move" />
+						{<img src={CreatorImg} className="img-fluid vert-move" />}
 					</div>
 				</div>
 			</div>
