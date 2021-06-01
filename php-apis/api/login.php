@@ -14,7 +14,7 @@ if($method == 'POST'){
 		$email = $params['email'];
         $pwd = $params['pwd'];
 
-		$sql = "SELECT email, id_user FROM users WHERE email='$email' AND pwd='$pwd' and active=1";
+		$sql = "SELECT email, id_user, user_name FROM users WHERE email='$email' AND pwd='$pwd' and active=1";
 		$result = $conn->query($sql);
 		if ($result->num_rows > 0) {
 			//echo 'Hola';
