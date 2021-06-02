@@ -25,7 +25,7 @@ if($method == 'POST'){
             echo "2";
         
         } else {
-            $sql = "INSERT INTO users (email, pwd, user_name, date) VALUES ('$mail', '$pwd', '$username', '$todayVisit')";
+            $sql = "INSERT INTO users (email, pwd, user_name, date, about) VALUES ('$mail', '$pwd', '$username', '$todayVisit', '¡Oye!, acabo de crear una super página aquí. ¡Ahora puedes invitarme a un café!')";
 
             if ($conn->query($sql) === TRUE) {
                 $sql3 = "SELECT email, id_user, user_name FROM users WHERE email='$mail' AND pwd='$pwd' and active=1";

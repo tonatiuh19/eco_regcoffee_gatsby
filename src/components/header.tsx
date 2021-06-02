@@ -84,7 +84,7 @@ const Header = ({ siteTitle }: HeaderProps) => {
 					if (x !== 0 && typeof x === "string") {
 						setvalidMailSignIn(true);
 						setstringValidationSignIn(x);
-						document.getElementById("exitSignIn").click();
+						document.getElementById("exitSignIn")!.click();
 						setloading(false);
 					} else if (Array.isArray(x)) {
 						setstringValidationSignIn("");
@@ -92,7 +92,7 @@ const Header = ({ siteTitle }: HeaderProps) => {
 						localStorage.setItem("08191993", x[0].id_user);
 						localStorage.setItem("08191993UN", x[0].user_name);
 						navigate("/" + x[0].user_name);
-						document.getElementById("exitSignIn").click();
+						document.getElementById("exitSignIn")!.click();
 						setloading(false);
 					} else if (x === 0) {
 						setstringValidationSignIn("Correo o contraseña incorrectos");
@@ -142,7 +142,7 @@ const Header = ({ siteTitle }: HeaderProps) => {
 					}
 				})
 				.finally(() => {
-					document.getElementById("exitSignUp").click();
+					document.getElementById("exitSignUp")!.click();
 					setloading(false);
 				});
 		}

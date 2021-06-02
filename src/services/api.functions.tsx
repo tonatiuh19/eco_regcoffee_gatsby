@@ -56,3 +56,18 @@ export const insertUser = async (
 		return `😱 Request failed: ${e}`;
 	}
 };
+
+export const getUserInfo = async (username: string) => {
+	try {
+		const response = await axios.post(server + "getUserInfo.php", {
+			username: username
+		});
+		if (response.data === 0) {
+			return 0;
+		} else {
+			return response.data;
+		}
+	} catch (e) {
+		return `😱 Request failed: ${e}`;
+	}
+};

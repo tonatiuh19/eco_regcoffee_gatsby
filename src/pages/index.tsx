@@ -13,14 +13,14 @@ const IndexPage: React.FC = (props: any) => {
 		const username = props.location.pathname.substring(1);
 		return (
 			<Layout>
-				<SEO title={"Regalame un Cafe | " + username} />
-				<Main></Main>
+				<SEO title={"Regalame un Café | " + username} />
+				<Main userName={username}></Main>
 			</Layout>
 		);
 	} else {
 		return (
 			<Layout>
-				<SEO title="Regalame un Cafe" />
+				<SEO title="Regalame un Café" />
 				<Start></Start>
 				<Link to="/page-2/"></Link>
 			</Layout>
